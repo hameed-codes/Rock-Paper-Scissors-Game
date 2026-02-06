@@ -1,0 +1,76 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.start-overlay {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    inset: 0;
+}
+
+.wlcm-message {
+    background-color: rgba(154, 154, 154, 0.4);
+    height: 50vmin;
+    aspect-ratio: 1.7 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    color: white;
+}
+
+h3 {
+    font-size: 5vmin;
+    
+}
+
+h2 {
+    font-size: 6vmin;
+    margin: 1vmin;
+    color: yellow;
+}
+
+#user-name {
+    border: none;
+    border-radius: 2vmin;
+    border-bottom: 1px soli black;
+    background-color: rgb(26, 26, 26);
+    height: 2vmin;
+    width: 40vmin;
+    margin: 2vmin;
+    padding: 2vmin;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vmin;
+
+}
+
+#user-name::highlight {
+    border: none;
+}
+
+#play-btn {
+    margin: 2vmin;
+    height: 4vmin;
+    aspect-ratio: 5 / 1;
+    border-radius: 1vmin;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+}
+
+/* .hide {
+    visibility: hidden;
+} */

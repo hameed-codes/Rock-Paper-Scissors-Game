@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="start-overlay hide">
+        <div class="wlcm-message">
+            <h3>Welcome to</h3>
+            <h2>Rock Paper Scissor Game</h2>
+            <p>Enter your name</p>
+            <input type="text" placeholder="ex. hameed" id="user-name">
+            <button id="play-btn">PLAY</button>
+            <p id="owner">Made By Hameed Khan</p>
+        </div>
+    </div>
+    
+    <header>
+        <h1 id="game-heading">Rock Paper Scissor Game</h1>
+    </header>
+
+    <main>
+        <div class="choices">
+            <div class="choice" id="rock"></div>
+            <div class="choice" id="paper"></div>
+            <div class="choice" id="scissor"></div>
+        </div>
+        <div class="score-board">
+            <div class="user">
+                <p class="score" id="user-score">0</p>
+                <p class="names" id="userName">user</p>
+            </div>
+            <div id="draw">
+                <p class="score" id="draw-score">0</p>
+                <p class="names">Draw</p>
+            </div>
+            <div class="computer">
+                <p class="score" id="comp-score">0</p>
+                <p class="names">Computer</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="game-result">
+        <h2 id="result-msg">Congratulations!</h2>
+        <h3 id="result-announcement">You Won, ooohoooo!</h3>
+        <p id="result-info"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
