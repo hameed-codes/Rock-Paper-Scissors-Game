@@ -15,11 +15,12 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    inset: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .wlcm-message {
-    background-color: rgba(154, 154, 154, 0.4);
+    background-color: rgb(41, 41, 41);
     height: 50vmin;
     aspect-ratio: 1.7 / 1;
     display: flex;
@@ -61,8 +62,20 @@ h2 {
     border: none;
 }
 
-#play-btn {
+.warning-msg {
+    position: absolute;
+    margin: 0vmin;
+    font-size: 2vmin;
+    color: red;
+}
+
+#owner {
+    margin: 1vmin;
+}
+
+button {
     margin: 2vmin;
+    margin-bottom: 1vmin;
     height: 4vmin;
     aspect-ratio: 5 / 1;
     border-radius: 1vmin;
@@ -71,6 +84,139 @@ h2 {
     font-weight: bold;
 }
 
-/* .hide {
+header {
+    width: 100vw;
+    height: 18vmin;
+    color: white;
+    background-color: orange;
+    font-size: 3.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices {
+    height: 40vmin;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    aspect-ratio: 1 / 1;
+    background-color: yellow;
+    height: 20vmin;
+    border-radius: 50%;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+}
+
+#rock {
+    background-image: url(/assets/rock.jpg);
+    background-position: center;
+    background-size: 20vmin;
+}
+
+#paper {
+    background-image: url(/assets/paper.jpg);
+    background-position: center;
+    background-size: 20vmin;
+}
+
+#scissor {
+    background-image: url(/assets/scissor.jpg);
+    background-position: center;
+    background-size: 20vmin;
+}
+
+.choice:hover {
+   
+    transform: scale(2);
+    margin: 10vmin;
+    background-size: 25vmin;
+}
+
+.choice:active {
+    border: 0.5vmin solid white;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score-board {
+    width: 60vmin;
+    height: 15vmin;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5vmin;
+    
+}
+
+.names {
+    font-size: 3vmin;
+}
+ .score {
+    font-size: 6vmin;
+ }
+
+.user, .draw, .computer {
+    width: 18vmin;
+}
+
+ .user {
+    color: green;
+ }
+
+ .draw {
+    color: blue;
+ }
+
+ .computer {
+    color: red;
+ }
+
+footer {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.end-overlay {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.game-result {
+    height: 50vmin;
+    aspect-ratio: 1.7 / 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+}
+
+p {
+    margin: 1vmin;
+}
+
+.hide {
     visibility: hidden;
-} */
+}
