@@ -27,8 +27,7 @@ playBtn.addEventListener("click", () => {
         warningMsg.classList.remove("hide")
     }
     else {
-        // let trimmedName = nameBar.value.trim().slice(0, 8);
-        let trimmedName = nameBar.value;
+        let trimmedName = nameBar.value.trim().slice(0, 8)
         startOverlay.classList.add("hide")
         userName.innerText = trimmedName;
     }

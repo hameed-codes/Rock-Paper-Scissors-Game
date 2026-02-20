@@ -62,16 +62,6 @@ While building this project, I practiced:
 
 ---
 
-## Future Improvements
-
-* Add sound effects
-* Add a reset button
-* Save score using local storage
-* Add difficulty mode
-* Improve UI design further
-
----
-
 ## Author
 
 Made by Hameed Khan
