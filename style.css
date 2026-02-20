@@ -114,19 +114,19 @@ header {
 }
 
 #rock {
-    background-image: url(/assets/rock.jpg);
+    background-image: url(assets/rock.jpg);
     background-position: center;
     background-size: 20vmin;
 }
 
 #paper {
-    background-image: url(/assets/paper.jpg);
+    background-image: url(assets/paper.jpg);
     background-position: center;
     background-size: 20vmin;
 }
 
 #scissor {
-    background-image: url(/assets/scissor.jpg);
+    background-image: url(assets/scissor.jpg);
     background-position: center;
     background-size: 20vmin;
 }
@@ -163,6 +163,9 @@ header {
 
 .names {
     font-size: 3vmin;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
  .score {
     font-size: 6vmin;
