@@ -32,11 +32,11 @@ body {
 }
 
 h3 {
-    font-size: clamp(1rem, 4vw, 1.8rem);
+    font-size: 4vmin;
 }
 
 h2 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 5vmin;
     margin: 1vmin;
     color: yellow;
 }
